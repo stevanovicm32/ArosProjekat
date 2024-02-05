@@ -8,6 +8,12 @@ Program pronalazi prosleđenu sekvencu karaktera unutar prosleđenoe datoteke, a
 
 `./pretrazivac [-i] [-w] trazena_sekvenca rel_path_do_datoteke`
 
+## Upotreba
+
+Za pomoc pri upotrebi koristi se:
+
+`./pretrazivac --help`
+
 ## Kompilacija
 
 Kod se kompajlira u izvršni fajl na sledeći način:

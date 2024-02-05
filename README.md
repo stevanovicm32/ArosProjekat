@@ -6,7 +6,7 @@ Projektni rad iz predmeta Arhitektura računara i operativni sistemi.
 
 Program pronalazi prosleđenu sekvencu karaktera unutar prosleđenoe datoteke, a to se postiže na sledeći način:
 
-`./pretrazivac trazena_sekvenca rel_path_do_datoteke`
+`./pretrazivac [-i] [-w] trazena_sekvenca rel_path_do_datoteke`
 
 ## Kompilacija
 

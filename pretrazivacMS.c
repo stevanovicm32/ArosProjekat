@@ -63,13 +63,6 @@ void print_red(const char *line, const char *word) {
 }
 
 int main(int argc, char *argv[]) {
-    if (argc < 3 || strcmp(argv[1], "--help") == 0) {
-        printf("Usage: %s [-i] [-w] <word> <filename>\n", argv[0]);
-        printf("-i: Ignore case\n");
-        printf("-w: Print lines without the word\n");
-        printf("--help: Display this help message\n");
-        return 0;
-    }
 
     bool ignore_case = false;
     bool print_without_word = false;
